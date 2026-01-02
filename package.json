@@ -1,0 +1,11 @@
+{
+  "name": "com.tomoorganization.logger",
+  "version": "1.0.0",
+  "displayName": "Tomo logger",
+  "description": "Adds functionality of logger by adding color as well as saving logs into a text file",
+  "unity": "2021.3",
+  "author": {
+    "name": "Tomoaki Itabashi",
+    "url": "https://github.com/TomoakiItabashi"
+  }
+}
