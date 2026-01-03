@@ -1,4 +1,4 @@
-#Tomo's Logging system
+# Tomo's Logging system
 ## What is it?
 This plugin adds additional QOL and functionality on top of unity's default console log.
 
