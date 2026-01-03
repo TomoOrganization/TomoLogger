@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TomoLoggingSystem</name>
+    </assembly>
+    <members>
+        <member name="M:Tomo.LoggingSystem.Logger.Log(System.Object,System.String)">
+            <summary>
+            Logs a message to the unity console
+            </summary>
+            <param name="message">String or object to be converted to string representation for display</param>
+            <param name="sourceFilePath">Unique tag used for identification</param>
+        </member>
+        <member name="M:Tomo.LoggingSystem.Logger.LogWarning(System.Object,System.String)">
+            <summary>
+            A variant of LoggerLog that Logs a warning message to the console
+            </summary>
+            <param name="message">String or object to be converted to string representation for display</param>
+            <param name="sourceFilePath">Unique tag used for identification</param>
+        </member>
+        <member name="M:Tomo.LoggingSystem.Logger.LogError(System.Object,System.String)">
+            <summary>
+            A variant of Logger.Log that Logs an error message to the console
+            </summary>
+            <param name="message">String or object to be converted to string representation for display</param>
+            <param name="sourceFilePath">Unique tag used for identification</param>
+        </member>
+        <member name="M:Tomo.LoggingSystem.Logger.SetOverrideColour(Tomo.LoggingSystem.LoggerColourSettings,System.String)">
+            <summary>
+            Set colour preset of logs from the same tag
+            </summary>
+            <param name="colourSettings"></param>
+            <param name="sourceFilePath">Unique tag used for identification</param>
+        </member>
+        <member name="M:Tomo.LoggingSystem.LoggerColourSettings.#ctor(UnityEngine.Color,UnityEngine.Color,UnityEngine.Color)">
+            <summary>
+            A colour preset used for logging
+            </summary>
+            <param name="debugColor">Colour for debug logs; uses unity colour</param>
+            <param name="warningColor">Colour for warning logs; uses unity colour</param>
+            <param name="errorColor">Colour for error logs; uses unity colour</param>
+        </member>
+        <member name="M:Tomo.LoggingSystem.LoggerColourSettings.#ctor(System.String,System.String,System.String)">
+            <summary>
+            A colour preset used for logging
+            </summary>
+            <param name="debugColor">Colour for debug logs; uses hexa code</param>
+            <param name="warningColor">Colour for warning logs; uses hexa code</param>
+            <param name="errorColor">Colour for error logs; uses hexa code</param>
+        </member>
+    </members>
+</doc>
