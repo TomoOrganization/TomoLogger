@@ -30,10 +30,10 @@ using Debug = Tomo.LoggingSystem.Logger;
 ```
 though it is not recommended as it may blend too well and have no differenciation with unity's default debug.
 
-##Installation
+## Installation
 To use this in your unity project, simply go to your project's package manager and input this repo's URL with ".git" at the end
 https://github.com/TomoOrganization/TomoLogger.git
 
-#license
+## license
 This project is licensed under the MIT License.
 See the MIT LICENSE tab for details.
