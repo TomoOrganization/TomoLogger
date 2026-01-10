@@ -7,5 +7,12 @@
   "author": {
     "name": "Tomoaki Itabashi",
     "url": "https://github.com/TomoakiItabashi"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Basic Implementation",
+      "description": "A simple setup demonstrating basic usage.",
+      "path": "Samples~/LoggerUsageSample"
+    }
+  ]
 }
