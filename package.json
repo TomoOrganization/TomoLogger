@@ -14,5 +14,8 @@
       "description": "A simple setup demonstrating basic usage.",
       "path": "Samples~/LoggerUsageSample"
     }
-  ]
+  ],
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.2"
+  }
 }
