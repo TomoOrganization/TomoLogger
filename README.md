@@ -1,4 +1,8 @@
 # Tomo's Logging system
+Note: Tested working on these platforms
+- PC
+- Android
+
 ## What is it?
 This plugin adds additional QOL and functionality on top of unity's default console log.
 
